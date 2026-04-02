@@ -1,4 +1,4 @@
-const getWeather = require('./weather');
+const getWeather = require('../weather');
 
 test('fetch current temperature', async () => {
     const temp = await getWeather();

@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('clone project') {
             steps {
-                git branch: 'master', url: 'https://github.com/AliAsjad512/Simple-Weather-App.git'
+                git branch: 'main', url: 'https://github.com/AliAsjad512/Simple-Weather-App.git'
             }
         }
            stage('Install Dependencies') {

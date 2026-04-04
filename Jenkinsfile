@@ -14,7 +14,7 @@ pipeline {
         }
          stage('test') {
             steps {
-                sh 'npm tast'
+                sh 'nmp test'
             }
         }
     }
